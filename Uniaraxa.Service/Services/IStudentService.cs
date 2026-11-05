@@ -11,7 +11,6 @@ namespace Uniaraxa.Service.Services
         public void UpdateStudent(Student student);
         public void DeleteStudent(int id);
         public Student GetStudentById(int id);
-        public Student GetStudentById(int id);
         public List<Student> GetAllStudents();
     }
 }
