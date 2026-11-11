@@ -29,7 +29,7 @@ namespace Uniaraxa.Service.Services
             return _studentRepository.GetAllStudents();        
         }
 
-        public Student GetStudentById(int id)
+        public Student? GetStudentById(int id)
         {
             return _studentRepository.GetStudentById(id);
         }
@@ -37,7 +37,6 @@ namespace Uniaraxa.Service.Services
         public void UpdateStudent(Student student)
         {
             _studentRepository.UpdateStudent(student);
-        }
         }
     }
 }
